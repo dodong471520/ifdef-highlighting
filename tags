@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CIfDef	syntax/c.vim	/^function! CIfDef()$/;"	f
+CIfDef	syntax/c.vim	/^function! s:CIfDef(force)$/;"	f
+CIfDef	syntax/cpp.vim	/^function! CIfDef()$/;"	f
+CIfDef	syntax/cpp.vim	/^function! s:CIfDef(force)$/;"	f
+CIfDef	syntax/ifdef.vim	/^function! CIfDef()$/;"	f
+CIfDef	syntax/ifdef.vim	/^function! s:CIfDef(force)$/;"	f
+CheckDirForFile	syntax/c.vim	/^function! s:CheckDirForFile(directory,file)$/;"	f
+CheckDirForFile	syntax/cpp.vim	/^function! s:CheckDirForFile(directory,file)$/;"	f
+CheckDirForFile	syntax/ifdef.vim	/^function! s:CheckDirForFile(directory,file)$/;"	f
+Define	syntax/c.vim	/^com! -complete=customlist,Find_defines -nargs=1 Define call Define(<q-args>)$/;"	c
+Define	syntax/c.vim	/^fun! Define(define)$/;"	f
+Define	syntax/cpp.vim	/^com! -complete=customlist,Find_defines -nargs=1 Define call Define(<q-args>)$/;"	c
+Define	syntax/cpp.vim	/^fun! Define(define)$/;"	f
+Define	syntax/ifdef.vim	/^com! -complete=customlist,Find_defines -nargs=1 Define call Define(<q-args>)$/;"	c
+Define	syntax/ifdef.vim	/^fun! Define(define)$/;"	f
+DoDefines	syntax/c.vim	/^fun! s:DoDefines( define, defines)$/;"	f
+DoDefines	syntax/cpp.vim	/^fun! s:DoDefines( define, defines)$/;"	f
+DoDefines	syntax/ifdef.vim	/^fun! s:DoDefines( define, defines)$/;"	f
+Find_defines	syntax/c.vim	/^fun! Find_defines(A, L, P)$/;"	f
+Find_defines	syntax/cpp.vim	/^fun! Find_defines(A, L, P)$/;"	f
+Find_defines	syntax/ifdef.vim	/^fun! Find_defines(A, L, P)$/;"	f
+GetModelines	syntax/c.vim	/^fun! s:GetModelines( l1, l2)$/;"	f
+GetModelines	syntax/cpp.vim	/^fun! s:GetModelines( l1, l2)$/;"	f
+GetModelines	syntax/ifdef.vim	/^fun! s:GetModelines( l1, l2)$/;"	f
+IfdefLoad	syntax/c.vim	/^fun! IfdefLoad()$/;"	f
+IfdefLoad	syntax/cpp.vim	/^fun! IfdefLoad()$/;"	f
+IfdefLoad	syntax/ifdef.vim	/^fun! IfdefLoad()$/;"	f
+ReadDefineModeline	syntax/c.vim	/^fun! s:ReadDefineModeline()$/;"	f
+ReadDefineModeline	syntax/cpp.vim	/^fun! s:ReadDefineModeline()$/;"	f
+ReadDefineModeline	syntax/ifdef.vim	/^fun! s:ReadDefineModeline()$/;"	f
+ReadFile	syntax/c.vim	/^fun! s:ReadFile( dir, filename)$/;"	f
+ReadFile	syntax/cpp.vim	/^fun! s:ReadFile( dir, filename)$/;"	f
+ReadFile	syntax/ifdef.vim	/^fun! s:ReadFile( dir, filename)$/;"	f
+Undefine	syntax/c.vim	/^com! -complete=customlist,Find_defines -nargs=1 Undefine call Undefine(<q-args>)$/;"	c
+Undefine	syntax/c.vim	/^fun! Undefine(define)$/;"	f
+Undefine	syntax/cpp.vim	/^com! -complete=customlist,Find_defines -nargs=1 Undefine call Undefine(<q-args>)$/;"	c
+Undefine	syntax/cpp.vim	/^fun! Undefine(define)$/;"	f
+Undefine	syntax/ifdef.vim	/^com! -complete=customlist,Find_defines -nargs=1 Undefine call Undefine(<q-args>)$/;"	c
+Undefine	syntax/ifdef.vim	/^fun! Undefine(define)$/;"	f
+b:current_syntax	syntax/c.vim	/^  let b:current_syntax = "ifdef"$/;"	v
+b:current_syntax	syntax/c.vim	/^  let b:current_syntax = b:current_syntax.'+ifdef'$/;"	v
+b:current_syntax	syntax/cpp.vim	/^  let b:current_syntax = "ifdef"$/;"	v
+b:current_syntax	syntax/cpp.vim	/^  let b:current_syntax = b:current_syntax.'+ifdef'$/;"	v
+b:current_syntax	syntax/ifdef.vim	/^  let b:current_syntax = "ifdef"$/;"	v
+b:current_syntax	syntax/ifdef.vim	/^  let b:current_syntax = b:current_syntax.'+ifdef'$/;"	v
+c_no_if0	syntax/c.vim	/^let c_no_if0=1$/;"	v
+c_no_if0	syntax/cpp.vim	/^let c_no_if0=1$/;"	v
+c_no_if0	syntax/ifdef.vim	/^let c_no_if0=1$/;"	v
+ifdef_filename	syntax/c.vim	/^    let ifdef_filename='.defines'$/;"	v
+ifdef_filename	syntax/c.vim	/^    let ifdef_filename='_defines'$/;"	v
+ifdef_filename	syntax/cpp.vim	/^    let ifdef_filename='.defines'$/;"	v
+ifdef_filename	syntax/cpp.vim	/^    let ifdef_filename='_defines'$/;"	v
+ifdef_filename	syntax/ifdef.vim	/^    let ifdef_filename='.defines'$/;"	v
+ifdef_filename	syntax/ifdef.vim	/^    let ifdef_filename='_defines'$/;"	v
+ifdef_loaded	syntax/c.vim	/^  let ifdef_loaded=1$/;"	v
+ifdef_loaded	syntax/cpp.vim	/^  let ifdef_loaded=1$/;"	v
+ifdef_loaded	syntax/ifdef.vim	/^  let ifdef_loaded=1$/;"	v
