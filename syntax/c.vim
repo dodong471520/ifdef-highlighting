@@ -360,6 +360,7 @@ fun! IfdefLoad()
 endfun
 
 "  hi default ifdefIfZero term=bold ctermfg=1 gui=italic guifg=DarkSeaGreen
+" hi default link ifdefInNeutralIf Error
 hi default link ifdefIfZero Comment
 hi default link ifdefCommentAtEnd Comment
 hi default link ifdefUndefined Debug
