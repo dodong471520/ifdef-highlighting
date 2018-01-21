@@ -156,14 +156,6 @@ if hlexists('cCppSkip')
   syn clear cCppSkip
 endif
 
-" Reload protection
-if !exists('ifdef_loaded') || exists('ifdef_debug')
-  let ifdef_loaded=1
-else
-  call s:CIfDef(1)
-  call IfdefLoad()
-  finish
-endif
 
 if !exists('ifdef_filename')
   if has('dos16') || has('gui_win32s') || has('win16')
@@ -235,6 +227,15 @@ function! s:CIfDef(force)
   syn sync fromstart
 
 endfunction
+
+" Reload protection
+if !exists('ifdef_loaded') || exists('ifdef_debug')
+  let ifdef_loaded=1
+else
+  call s:CIfDef(1)
+  call IfdefLoad()
+  finish
+endif
 
 " Mark a (regexp) definition as defined.
 " Note that the regular expression is use with \< \> arround it.
